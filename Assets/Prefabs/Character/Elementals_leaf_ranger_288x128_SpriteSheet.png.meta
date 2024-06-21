@@ -1,0 +1,5332 @@
+fileFormatVersion: 2
+guid: f8f202947885bec448ac847cbe26f104
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2046
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b8c866e9bf16447b064d684cd7769b
+      internalID: 467005030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2046
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c85eddd7a809d438059aaf3af37a19
+      internalID: 202146020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 2046
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a396ce02388dd234a8bdea1bd0d80cf6
+      internalID: 1353454790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2046
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6858cb75caddaf45af97560be35ac55
+      internalID: -326220338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 2046
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf7054314ac93e41b2ffd2f88306377
+      internalID: 17443363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2046
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa458357fde8d34a8cfc2bf344c37ee
+      internalID: 883342054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 2046
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf31ee5f32be4a438e61fdfbf16882d
+      internalID: 2144063901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2046
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78957647304243a4ebcda6de73a30635
+      internalID: 1950143289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 2046
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f50339e77c97046a303ab3f06e40c2
+      internalID: -65991727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 2046
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc13736a5860bc40b9bf031bea88661
+      internalID: 1061079273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 2046
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a538b6480cca742a7061982118357c
+      internalID: 1317623669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 2046
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8836c7b2b55190a49952ec2738205b35
+      internalID: -284763339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1919
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c4acf0384ecf6488ad15ef2ba39950
+      internalID: 1865241541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1925
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3743c8442963a3a4980c86b79f5672a8
+      internalID: -1514255215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1925
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e2a42e98e97f349b3bae0382879cda
+      internalID: -1400452839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1919
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e138e69cd03a3439114547a3795b0c
+      internalID: 1980173206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1919
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6e22d2b9a69504ba8b16d5a0b07898
+      internalID: 129360943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1919
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4a05a88f5cec0458813e860a7e3c61
+      internalID: -2081120272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1925
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ada46c019138934fbd05a81e14d1d1f
+      internalID: -1384632695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1922
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8133e9112420a74380d54182a322104
+      internalID: 1330327382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 1919
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f4f04bfb3998f4685074ce1a976454
+      internalID: 1717379334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 1919
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d605fd530e31b4781653f99aeceb7f
+      internalID: -1869645629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1789
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7777525532582924cb0212b7d304a668
+      internalID: -1366517095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1789
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fb5a56c0093554ab18550234937515
+      internalID: -973902390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1792
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2939711b12f3e2f46b8f09a258e723be
+      internalID: -1562383712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1792
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c5bdd971dcd44cb1123b5772b00e9
+      internalID: 23637409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1792
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb94509fc5047dd429a5df75839d6f60
+      internalID: -2109222760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1792
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b805c25ddc1bcf34f9d4605a45bfa7a8
+      internalID: -1942856235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1792
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b3f02bf8e98da47baf44359ef43eab
+      internalID: -316769162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 1792
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c368d3a97b181b44a3f71aa5d6f6972
+      internalID: -1164903400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 1795
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab790bb7e6ee44a91ec7cb75d0b1a8
+      internalID: -295882425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1798
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08899f31702c9e45ac4bacac8f31b93
+      internalID: -457043280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1798
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495b2aee78fd4544f88cb2fd062c9eb3
+      internalID: -455526040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 1795
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78dabe89eb38d0448e0dab07a03f742
+      internalID: -1731433277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 1792
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c1d033a4aa0ca4696b3269dd370216
+      internalID: -669434262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 1792
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c5153e0e806394c957838a64f3db90
+      internalID: 1969518100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 1792
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfa5a1737d292946ae378e1be9208b4
+      internalID: -1783037210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 1792
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5506966d4f9394aa58a4a0f3939af4
+      internalID: -2091053618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 1792
+        width: 40
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5f6c23e1ddd37468b06f09a8cb04db
+      internalID: -1769001891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 5024
+        y: 1792
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c14f383a60bb4b969f89a33d4c86a
+      internalID: -961411407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 5312
+        y: 1789
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941887f1cd39d1046ab04c7ef1faa750
+      internalID: 1674982088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 5587
+        y: 1789
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdeb7b9d5a2de214aa2541dcce10539d
+      internalID: 1866549928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 5878
+        y: 1789
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0c773870f00b048ae02bc6f8b5caa1
+      internalID: 704044801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 6169
+        y: 1789
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccdcc19a08100149ad94ba1fcf38e37
+      internalID: 993289144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1665
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9851aa277b91862428c4430ba49c94ca
+      internalID: -1945311950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1665
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4294cbafa5b38f04f8198e6a7258863d
+      internalID: -120653374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1665
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14ae133160f9bd41b3fbc91f4c1afce
+      internalID: -1101717171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1535
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2e59431e026f4d820068bb84a2d89
+      internalID: -1942282218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1535
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cf975553db3ca4081c432bfe7deff6
+      internalID: -514979992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1538
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6953a89124e9316419b6b25b75cfb02a
+      internalID: -827836338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1538
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889cb04e71027d040bd245fb4829dd21
+      internalID: -321400861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1538
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905aa908e0161ee4ebd36ead60d07019
+      internalID: -775146485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1538
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f713ee23ffdd14f8a06a84501d60fa
+      internalID: 806420912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1538
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fb1543c3e314940bf388671d193e48
+      internalID: 475959488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 1538
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441fef5efc527ce458d49f8b8a429391
+      internalID: -2021729638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 1541
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5499fcfb3d48a514eb31e9d389bf2222
+      internalID: 1236150940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1545
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880776e24eb535d4690b07a0bbe4e2a2
+      internalID: 2011743289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1541
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597b4cdd41e8e5f45a30e91d1243c8a3
+      internalID: -141664459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 1538
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994fdbff1b5ad8247b1b03ab99a01104
+      internalID: -951295826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 1535
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37cf940e4d93e2448d8b1ad4035df17
+      internalID: 1754676669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 1535
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7c1590367f2714ca16193ac9791e3b
+      internalID: -645581943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 1535
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664343c60d93dc04fbf23328ddab7328
+      internalID: 1157169112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 1535
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d82b0b10bedb749b55eeeed8be321e
+      internalID: -1333125527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 1535
+        width: 40
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1338e02e434c65f41b46a27f71e17a40
+      internalID: -328106717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 5024
+        y: 1535
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dc4a713b36f634dae252479886dd5b
+      internalID: 1092491946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 5312
+        y: 1535
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95619cb984b8734799d3a222ccc6881
+      internalID: 611960444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 5587
+        y: 1535
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72b02856a25ec84db1b8e42a0549faa
+      internalID: 1221736047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 5878
+        y: 1535
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb875ece422c734d96d99567b7c5e4e
+      internalID: -1759871931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 6169
+        y: 1535
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418133399909a5245905dd85872212e9
+      internalID: 685674884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1408
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce768bd65fc19240bd828f770f1458d
+      internalID: 1462356229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1408
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab1af9d7f2c57942accdd45ba0b9136
+      internalID: 1543335763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1408
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173dfcaef31367d4e81d29f151c4d506
+      internalID: 396711057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1278
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92aeedd495ad9c34fa6db9532cb48dd2
+      internalID: 1276545557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1278
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061d499eb51b3684d87159e6b7ab10fa
+      internalID: 422892721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1281
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678acc8406eec7d4c9144e26c95ce2d3
+      internalID: 688269134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1281
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4847b20d2eaae42a9ee721b5af6536
+      internalID: 53046422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1281
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a90f0e9dc562c41b1e9157065694fc
+      internalID: -1171189786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1281
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4607b7af4bc117b48986bed8ba133c9b
+      internalID: -808215053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1281
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07ae86bfa104464d8ef49eea976feb3
+      internalID: -209621778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 1281
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd7d73cc884f9c49a0601cea1cb4704
+      internalID: -1698462921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 1285
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f891822c6d5d247bb16b07c6243b5e
+      internalID: -707924018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1288
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bc71776b77ec74fb7ea322d458a9ac
+      internalID: 1269604657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1285
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ce1081751e5e84f8cc197defe8492b
+      internalID: -1694638866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 1285
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abb949aea8af6f40a563972c8ee1980
+      internalID: -1341480501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 1281
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43927c60142a5884b8446d4c7e8dad3e
+      internalID: -1618730683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 1281
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feb2637b5350934c8f91e0e4495b0f3
+      internalID: 20366275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 1281
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76883669980c2be4cb83cfae998cbce3
+      internalID: 1802873639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 1281
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b40a435a353e543b8611c283cd1997
+      internalID: -1020720205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 1281
+        width: 40
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14905a7b36bd7e6448651fa6a15e62ec
+      internalID: -654583504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 5024
+        y: 1281
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa3a888e0281614c8ba1d04c874911b
+      internalID: -348326554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 5312
+        y: 1278
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5091428e8bfe94748aa77ee599799dcd
+      internalID: -1953055824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 5587
+        y: 1278
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43971cd7becc8374b90da4b86b1b2675
+      internalID: -70002290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 5878
+        y: 1278
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cb44743876a9e459197d0458ef3554
+      internalID: -1754150810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 6169
+        y: 1278
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95019278134d6474180679d5a22e788c
+      internalID: 1425802571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1158
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e00b42d7853f9f4aaa449fcd38b8602
+      internalID: -1738168608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1161
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcab56b6e1cf862428877a117fbc36fb
+      internalID: 1371734402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1158
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef345dbff26a4da48b507c2a32b80469
+      internalID: -1314099446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1158
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa15c9f48ab677244ba6af255035072a
+      internalID: 2064267451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1158
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f31e89e85bc3c4981699d63f092d8f
+      internalID: 1988607630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1158
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f173325d7c530be4db8cfdab92e3fa15
+      internalID: -621017204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1158
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e86cef2cb4a37b4c9a08cc82da4d222
+      internalID: -324483489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1158
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6315773bbbc10b448bab87aada7e179e
+      internalID: -424392952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 1158
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593148f636cd74840b1f400829de483c
+      internalID: -1754181216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1155
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0d2969dd9395347b5c7f8f79a2015d
+      internalID: 1427138844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1021
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c73bb5935ab074ea08445d92fcb888
+      internalID: -1183610993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1021
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1881114be9b67844e8802ae4475122d8
+      internalID: 877189329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1025
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2a4c1875e7b774cba3669bef104931
+      internalID: -746228797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1021
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e30af3c21f0e3d439e2b0f1b605c255
+      internalID: -1691523709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1021
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff335dc59fb97ab4ea138f3a4c405517
+      internalID: -784955272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1021
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f67227dea417db4985d2c353134f772
+      internalID: 1609526619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1021
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec90f31bf6693e544951e9b50daae238
+      internalID: -1042463667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 1021
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ea28875d5557749a1b3551cee02cbe
+      internalID: 317775934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 895
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78950e88a5b022e42b7762bd886c3ef0
+      internalID: -2024436677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 895
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b514e96e8eed69f418d9f3c94b4821f3
+      internalID: -732682058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 895
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9b8b5d18e7c146aa74787cb1cecad
+      internalID: 71992063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 895
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d6b97aa88e544da1effb3f341127b
+      internalID: 332851325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 895
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b678ac1eadd4c48a08b2e3eb774f5f
+      internalID: 79111041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 895
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e278c9f2ab6724da1eaabc6848cb5c
+      internalID: 1501584364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 895
+        width: 77
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebf4b43146b3244c819a2fbe6eed61c
+      internalID: 2026000085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 895
+        width: 75
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb18a1b35bbe1ff4bbd036422a98f471
+      internalID: -1163099164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 895
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959ffdd56796ddf4da8b3babd6b65a7d
+      internalID: 1843851487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 895
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33a3bbe9bb86ed4c86e27a5a8effc5b
+      internalID: -1615689063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 895
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3316a85e5a69a47438a80b055a5ff2fc
+      internalID: -27184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 895
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4f1ef6b1e2cd54e91060f319ed7fba
+      internalID: 609946022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 895
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbbe378314e4b446979aaa392ea8451
+      internalID: -173206430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 768
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed78ba7169515e479699f445e9ba16e
+      internalID: 406620010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 768
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dda4c1a993d7ee4cafb64bf81027655
+      internalID: 669133866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 768
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a63ce2e0844f743b4d4ef6d73e342e
+      internalID: 1700776237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 768
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f8601658275f349884f4d0245d239d
+      internalID: -956387912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 768
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1c8036f4a448747ac96b8c8d9c7024
+      internalID: -1688737172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 768
+        width: 81
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899f57f6cb2fa0049a22d982e71b51e6
+      internalID: -2020303865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 768
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27577f1950d41cb46815664177a4b786
+      internalID: 463437878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 768
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358a2dae138466240995fd5d80095be3
+      internalID: -2010742834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 768
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bbeb12222de9a418f144121341a7f8
+      internalID: -842296621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 768
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77fa6cfef5e7a844af6b653611a7950
+      internalID: -1313798973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 638
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f346e470129eef34aaaeb3001df88798
+      internalID: 922120721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 638
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c773af3745511f45967f2eb6e732a7f
+      internalID: -50116905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 638
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a2d131ef732f24896f5cd7c64c3c11
+      internalID: -180057904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 638
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083ce9a49fa520d49baa623f5a56e1b8
+      internalID: -784973111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 638
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186a548c508a73b41ba1162183f25be8
+      internalID: -1341089859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 638
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc394e6ef6ccbc94eb9db489a2288183
+      internalID: -50343526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 638
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c98ab0b8210d3f4fb0b7adea240895f
+      internalID: 1144094369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 638
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4829090e527774fbd427c040ac401c
+      internalID: 1388543993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 638
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2024560452abb4ba56356f337823bb
+      internalID: 1983437844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 638
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162e5cc5cf055e1439ab40b478a313c2
+      internalID: -399675279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 638
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92fb767312da1148bdea1424bfd4eef
+      internalID: -976786399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 638
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fdd3a0f9aff054492a4adc8fee8366
+      internalID: -1732070821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 638
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f0dcf71bd220344b5d749bf72dadb5
+      internalID: -1080691392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 638
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a24e900358cb344a03d78b61877161
+      internalID: -156455062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 4149
+        y: 638
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a6eaf6663f6e84699ff1be8abdcb20
+      internalID: 1018268695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 610
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384548ce8387d30408639388bb5dc417
+      internalID: 1607358796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 607
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dabc61e4ecbb104da5181d6df4806f9
+      internalID: 1515692464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 604
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11911f99bd3228947aca5a9b59ae6d9d
+      internalID: 824444736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030717f9225fbd4bac9cbec89b8c729
+      internalID: -1754854218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 554
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e6e41600ffdb44e90d34bb7d836aa2
+      internalID: 1544055285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 554
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50319ff5e667a3c439426b2630dbcac6
+      internalID: 836081203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 511
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045e55ada52d854f8a224a677e62c1c
+      internalID: 1262183292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 511
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbe80ca1935d37408effa312d4987bb
+      internalID: -1757403363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 511
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f5e3c4dace2b5438392772708b1003
+      internalID: 2109728135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 511
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb49a5028d36614f99f75e4892a49fb
+      internalID: 1453812123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 511
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a8520262d256544addc26f5f533cbb
+      internalID: -2090355726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 511
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b1e4e5f30f2bd48aa6c8a168f187cc
+      internalID: 454599173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 511
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d0f17a250581748a7c050fcd937df5
+      internalID: -978971180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 511
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf9ab68c45d0414a86594cbe7d3840c
+      internalID: -1684692383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 511
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6b251f35fa8304183035db1df77a7c
+      internalID: -192952908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 511
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7823c14642ce994fbf06b16aca962b5
+      internalID: 732716278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 511
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfd445a303dfb241ab34f647733a930
+      internalID: 1233087055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 511
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84daeb0568ef0643a2cb4bab22d1e19
+      internalID: -815805083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 381
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029f454f8f959eb4f9e0540e4414c1c5
+      internalID: -512121217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 381
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7d1b246c5a70943af030306d73d102
+      internalID: -11761362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 381
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb56e6a9141764d86dd4113b56ddd3
+      internalID: -1753367566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 384
+        width: 65
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b53f4e9ee83b834f8565b98b44f7067
+      internalID: -1609154199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 381
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f6989c9c8ca04ebdaae48d7cab2c0
+      internalID: -1352500937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 381
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b0b9b6e1af9545b6d594f1cb6f51c
+      internalID: -877574147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 381
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fde0ca6d1e07942a265646fbada6b8
+      internalID: 1950344015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 381
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f5a0dd4c4c59148bc1a8186ef3812a
+      internalID: 447474560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 381
+        width: 77
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25446febb9aa5e48822dfbcf9463341
+      internalID: -2144468206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 384
+        width: 185
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c8290876cc01743b13260484792854
+      internalID: -1097036104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 384
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a526444a54f7684f9d366d52e178fd5
+      internalID: -1779899491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 409
+        width: 148
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fb39cce19f80446a40814cc39cc0fb
+      internalID: 334481172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 384
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaa32543f0a38444bb227bc3ce26f97
+      internalID: -1120987747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 409
+        width: 149
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6a112b92fc02143ba1fa46ca757933
+      internalID: 2011809191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 384
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14228307afec52c49a9a43acaf395caf
+      internalID: -854021760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 409
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7542f5c67de48584a8beceb694837f77
+      internalID: 1639967111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 409
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ddbd0438d0df042a2ffe8e0c5f84f8
+      internalID: 1619907946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 409
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ba13b8a5a793c44baf6808c249a09c
+      internalID: -898900846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 409
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998560d8d1a7f4e4189ab511b968792a
+      internalID: 561089214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 409
+        width: 38
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f0af75372bff478a267607fff0380
+      internalID: -427996948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 381
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8846a7434fcabe4fb035441fe978da5
+      internalID: 244329235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 384
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c399b6eddd69044b4b1648920a4fc5
+      internalID: -858085973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 384
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae63b86b13a5c54c907bd540ac640b7
+      internalID: -354617982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 4724
+        y: 384
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ddab5a5cacae4c924e30a7a310a25
+      internalID: 680068872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 254
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57001e1f431f2d84db7d5f54f54f7b47
+      internalID: -1344962605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 254
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be56eb8eda73fbd45b390a4a6291aa01
+      internalID: 694635525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 254
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fbd8a9f9d9d7a4f920bb1e2098e433
+      internalID: 1914480295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 254
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1c54137b6f804479b2c282e41b89dc
+      internalID: -1996019080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 254
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ae0336a1b29240bcb5ee827f42164
+      internalID: 148291876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 254
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c69075dc8dfdb4d8d97f454227dbf3
+      internalID: -1984761314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 254
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f19a4d354a47504ba5b60395b3468fa
+      internalID: -1602803464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 254
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a159d7264b3b99443a6a2d7b2357df10
+      internalID: 639803675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 254
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f87536fd8a3bb4bbe13145d18649e8
+      internalID: -1270781504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 254
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa35f8cc53204044dbc88b9c49941910
+      internalID: -550233965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 254
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc93a245c90b40c4d8c31d738bb8eead
+      internalID: 66201418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 254
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854075b186577154db0f9702a1e4600c
+      internalID: -1823667181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 254
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb509c0ac2a6db343ab0f812b9679206
+      internalID: -1904292065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 254
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cd59e74f634164aa0a82306ebd65e0
+      internalID: -1319036093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 254
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f7fc7e101ebc341b1dceb249355981
+      internalID: 2127478180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 4458
+        y: 254
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85985195a44f1b04ebc7a96561969fe7
+      internalID: 1861296050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 4746
+        y: 254
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f339479ec314c4e9d6d3146028c10b
+      internalID: 1227378712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 5027
+        y: 254
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01debf07873e9b9409ee1d86de067d08
+      internalID: -1565559339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 254
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc850ca9d11f3e4f86d6ff6bb9bdff6
+      internalID: -2002784541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 127
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12aa251c5d30a174287475efafb51786
+      internalID: 1613018792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 127
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6869d6c1ddd560438e272ba4ca0abac
+      internalID: 1735270848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 127
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcddf47caeecb7847a37fd84a9e1b2c2
+      internalID: 290440144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 127
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f79d7255cded64aa06f421c3303365
+      internalID: -280260942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 127
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fd15ebce01768409c66a6084f07afc
+      internalID: 1745280877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 127
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642ebe90302d8ca459f4a70959053f2f
+      internalID: -748221799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0b5c87b728d54f899acf8038b0cca
+      internalID: 985831124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a10eb673820f44e801890ca7092951
+      internalID: 1127024482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 0
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3aa43b03fcc3c4fb2172dbe2ae793f
+      internalID: 592560828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a525a0c82aff2e4a863a973ba69b7eb
+      internalID: 1105618591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 0
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d862e8eed187ff4c9a924cac15b3342
+      internalID: 1290849705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 0
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0516d5e7b2bc16e41857e975d29a5151
+      internalID: -239943477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c2120737636449b70cea0b1c12494
+      internalID: 1775004802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 0
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9889d8c87b70184fbd8ccd3fd7c35c4
+      internalID: -1990101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_225
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 0
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188ef195a304ae74197bef75e808d6bb
+      internalID: -1107231588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_226
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 0
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f7074324df53e48b0c165e177342f0
+      internalID: -787795019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_227
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 0
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09d9b2e5231f3244884983630e1ae63
+      internalID: 1907727444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_228
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 0
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d208576aed259c4a9cc7f516147af87
+      internalID: 1296849395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_229
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 0
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa29a0c620138c4a989d71b63a3ed10
+      internalID: -1409068443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_230
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 0
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1da5d517bfffd49a6ae3a7decc548f
+      internalID: -1276829660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_231
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 0
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eedc6dd2c984c4e82c85a925fa030a
+      internalID: 1785061776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_232
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31886d90013cb428813b67f7d2198e
+      internalID: -159429749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_233
+      rect:
+        serializedVersion: 2
+        x: 4737
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301bc068af0f24c41adc63dae9040423
+      internalID: 2000268070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_234
+      rect:
+        serializedVersion: 2
+        x: 5024
+        y: 0
+        width: 65
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a28f1699fd85a248ad2d0cc0ab4cc04
+      internalID: -515843165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementals_leaf_ranger_288x128_SpriteSheet_235
+      rect:
+        serializedVersion: 2
+        x: 5315
+        y: 0
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3b793d1b81154c842648f34a4399d
+      internalID: -2032041407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Elementals_leaf_ranger_288x128_SpriteSheet_0: 467005030
+      Elementals_leaf_ranger_288x128_SpriteSheet_1: 202146020
+      Elementals_leaf_ranger_288x128_SpriteSheet_10: 1317623669
+      Elementals_leaf_ranger_288x128_SpriteSheet_100: -324483489
+      Elementals_leaf_ranger_288x128_SpriteSheet_101: -424392952
+      Elementals_leaf_ranger_288x128_SpriteSheet_102: -1754181216
+      Elementals_leaf_ranger_288x128_SpriteSheet_103: 1427138844
+      Elementals_leaf_ranger_288x128_SpriteSheet_104: -1183610993
+      Elementals_leaf_ranger_288x128_SpriteSheet_105: 877189329
+      Elementals_leaf_ranger_288x128_SpriteSheet_106: -746228797
+      Elementals_leaf_ranger_288x128_SpriteSheet_107: -1691523709
+      Elementals_leaf_ranger_288x128_SpriteSheet_108: -784955272
+      Elementals_leaf_ranger_288x128_SpriteSheet_109: 1609526619
+      Elementals_leaf_ranger_288x128_SpriteSheet_11: -284763339
+      Elementals_leaf_ranger_288x128_SpriteSheet_110: -1042463667
+      Elementals_leaf_ranger_288x128_SpriteSheet_111: 317775934
+      Elementals_leaf_ranger_288x128_SpriteSheet_112: -2024436677
+      Elementals_leaf_ranger_288x128_SpriteSheet_113: -732682058
+      Elementals_leaf_ranger_288x128_SpriteSheet_114: 71992063
+      Elementals_leaf_ranger_288x128_SpriteSheet_115: 332851325
+      Elementals_leaf_ranger_288x128_SpriteSheet_116: 79111041
+      Elementals_leaf_ranger_288x128_SpriteSheet_117: 1501584364
+      Elementals_leaf_ranger_288x128_SpriteSheet_118: 2026000085
+      Elementals_leaf_ranger_288x128_SpriteSheet_119: -1163099164
+      Elementals_leaf_ranger_288x128_SpriteSheet_12: 1865241541
+      Elementals_leaf_ranger_288x128_SpriteSheet_120: 1843851487
+      Elementals_leaf_ranger_288x128_SpriteSheet_121: -1615689063
+      Elementals_leaf_ranger_288x128_SpriteSheet_122: -27184
+      Elementals_leaf_ranger_288x128_SpriteSheet_123: 609946022
+      Elementals_leaf_ranger_288x128_SpriteSheet_124: -173206430
+      Elementals_leaf_ranger_288x128_SpriteSheet_125: 406620010
+      Elementals_leaf_ranger_288x128_SpriteSheet_126: 669133866
+      Elementals_leaf_ranger_288x128_SpriteSheet_127: 1700776237
+      Elementals_leaf_ranger_288x128_SpriteSheet_128: -956387912
+      Elementals_leaf_ranger_288x128_SpriteSheet_129: -1688737172
+      Elementals_leaf_ranger_288x128_SpriteSheet_13: -1514255215
+      Elementals_leaf_ranger_288x128_SpriteSheet_130: -2020303865
+      Elementals_leaf_ranger_288x128_SpriteSheet_131: 463437878
+      Elementals_leaf_ranger_288x128_SpriteSheet_132: -2010742834
+      Elementals_leaf_ranger_288x128_SpriteSheet_133: -842296621
+      Elementals_leaf_ranger_288x128_SpriteSheet_134: -1313798973
+      Elementals_leaf_ranger_288x128_SpriteSheet_135: 922120721
+      Elementals_leaf_ranger_288x128_SpriteSheet_136: -50116905
+      Elementals_leaf_ranger_288x128_SpriteSheet_137: -180057904
+      Elementals_leaf_ranger_288x128_SpriteSheet_138: -784973111
+      Elementals_leaf_ranger_288x128_SpriteSheet_139: -1341089859
+      Elementals_leaf_ranger_288x128_SpriteSheet_14: -1400452839
+      Elementals_leaf_ranger_288x128_SpriteSheet_140: -50343526
+      Elementals_leaf_ranger_288x128_SpriteSheet_141: 1144094369
+      Elementals_leaf_ranger_288x128_SpriteSheet_142: 1388543993
+      Elementals_leaf_ranger_288x128_SpriteSheet_143: 1983437844
+      Elementals_leaf_ranger_288x128_SpriteSheet_144: -399675279
+      Elementals_leaf_ranger_288x128_SpriteSheet_145: -976786399
+      Elementals_leaf_ranger_288x128_SpriteSheet_146: -1732070821
+      Elementals_leaf_ranger_288x128_SpriteSheet_147: -1080691392
+      Elementals_leaf_ranger_288x128_SpriteSheet_148: -156455062
+      Elementals_leaf_ranger_288x128_SpriteSheet_149: 1018268695
+      Elementals_leaf_ranger_288x128_SpriteSheet_15: 1980173206
+      Elementals_leaf_ranger_288x128_SpriteSheet_150: 1607358796
+      Elementals_leaf_ranger_288x128_SpriteSheet_151: 1515692464
+      Elementals_leaf_ranger_288x128_SpriteSheet_152: 824444736
+      Elementals_leaf_ranger_288x128_SpriteSheet_153: -1754854218
+      Elementals_leaf_ranger_288x128_SpriteSheet_154: 1544055285
+      Elementals_leaf_ranger_288x128_SpriteSheet_155: 836081203
+      Elementals_leaf_ranger_288x128_SpriteSheet_156: 1262183292
+      Elementals_leaf_ranger_288x128_SpriteSheet_157: -1757403363
+      Elementals_leaf_ranger_288x128_SpriteSheet_158: 2109728135
+      Elementals_leaf_ranger_288x128_SpriteSheet_159: 1453812123
+      Elementals_leaf_ranger_288x128_SpriteSheet_16: 129360943
+      Elementals_leaf_ranger_288x128_SpriteSheet_160: -2090355726
+      Elementals_leaf_ranger_288x128_SpriteSheet_161: 454599173
+      Elementals_leaf_ranger_288x128_SpriteSheet_162: -978971180
+      Elementals_leaf_ranger_288x128_SpriteSheet_163: -1684692383
+      Elementals_leaf_ranger_288x128_SpriteSheet_164: -192952908
+      Elementals_leaf_ranger_288x128_SpriteSheet_165: 732716278
+      Elementals_leaf_ranger_288x128_SpriteSheet_166: 1233087055
+      Elementals_leaf_ranger_288x128_SpriteSheet_167: -815805083
+      Elementals_leaf_ranger_288x128_SpriteSheet_168: -512121217
+      Elementals_leaf_ranger_288x128_SpriteSheet_169: -11761362
+      Elementals_leaf_ranger_288x128_SpriteSheet_17: -2081120272
+      Elementals_leaf_ranger_288x128_SpriteSheet_170: -1753367566
+      Elementals_leaf_ranger_288x128_SpriteSheet_171: -1609154199
+      Elementals_leaf_ranger_288x128_SpriteSheet_172: -1352500937
+      Elementals_leaf_ranger_288x128_SpriteSheet_173: -877574147
+      Elementals_leaf_ranger_288x128_SpriteSheet_174: 1950344015
+      Elementals_leaf_ranger_288x128_SpriteSheet_175: 447474560
+      Elementals_leaf_ranger_288x128_SpriteSheet_176: -2144468206
+      Elementals_leaf_ranger_288x128_SpriteSheet_177: -1097036104
+      Elementals_leaf_ranger_288x128_SpriteSheet_178: -1779899491
+      Elementals_leaf_ranger_288x128_SpriteSheet_179: 334481172
+      Elementals_leaf_ranger_288x128_SpriteSheet_18: -1384632695
+      Elementals_leaf_ranger_288x128_SpriteSheet_180: -1120987747
+      Elementals_leaf_ranger_288x128_SpriteSheet_181: 2011809191
+      Elementals_leaf_ranger_288x128_SpriteSheet_182: -854021760
+      Elementals_leaf_ranger_288x128_SpriteSheet_183: 1639967111
+      Elementals_leaf_ranger_288x128_SpriteSheet_184: 1619907946
+      Elementals_leaf_ranger_288x128_SpriteSheet_185: -898900846
+      Elementals_leaf_ranger_288x128_SpriteSheet_186: 561089214
+      Elementals_leaf_ranger_288x128_SpriteSheet_187: -427996948
+      Elementals_leaf_ranger_288x128_SpriteSheet_188: 244329235
+      Elementals_leaf_ranger_288x128_SpriteSheet_189: -858085973
+      Elementals_leaf_ranger_288x128_SpriteSheet_19: 1330327382
+      Elementals_leaf_ranger_288x128_SpriteSheet_190: -354617982
+      Elementals_leaf_ranger_288x128_SpriteSheet_191: 680068872
+      Elementals_leaf_ranger_288x128_SpriteSheet_192: -1344962605
+      Elementals_leaf_ranger_288x128_SpriteSheet_193: 694635525
+      Elementals_leaf_ranger_288x128_SpriteSheet_194: 1914480295
+      Elementals_leaf_ranger_288x128_SpriteSheet_195: -1996019080
+      Elementals_leaf_ranger_288x128_SpriteSheet_196: 148291876
+      Elementals_leaf_ranger_288x128_SpriteSheet_197: -1984761314
+      Elementals_leaf_ranger_288x128_SpriteSheet_198: -1602803464
+      Elementals_leaf_ranger_288x128_SpriteSheet_199: 639803675
+      Elementals_leaf_ranger_288x128_SpriteSheet_2: 1353454790
+      Elementals_leaf_ranger_288x128_SpriteSheet_20: 1717379334
+      Elementals_leaf_ranger_288x128_SpriteSheet_200: -1270781504
+      Elementals_leaf_ranger_288x128_SpriteSheet_201: -550233965
+      Elementals_leaf_ranger_288x128_SpriteSheet_202: 66201418
+      Elementals_leaf_ranger_288x128_SpriteSheet_203: -1823667181
+      Elementals_leaf_ranger_288x128_SpriteSheet_204: -1904292065
+      Elementals_leaf_ranger_288x128_SpriteSheet_205: -1319036093
+      Elementals_leaf_ranger_288x128_SpriteSheet_206: 2127478180
+      Elementals_leaf_ranger_288x128_SpriteSheet_207: 1861296050
+      Elementals_leaf_ranger_288x128_SpriteSheet_208: 1227378712
+      Elementals_leaf_ranger_288x128_SpriteSheet_209: -1565559339
+      Elementals_leaf_ranger_288x128_SpriteSheet_21: -1869645629
+      Elementals_leaf_ranger_288x128_SpriteSheet_210: -2002784541
+      Elementals_leaf_ranger_288x128_SpriteSheet_211: 1613018792
+      Elementals_leaf_ranger_288x128_SpriteSheet_212: 1735270848
+      Elementals_leaf_ranger_288x128_SpriteSheet_213: 290440144
+      Elementals_leaf_ranger_288x128_SpriteSheet_214: -280260942
+      Elementals_leaf_ranger_288x128_SpriteSheet_215: 1745280877
+      Elementals_leaf_ranger_288x128_SpriteSheet_216: -748221799
+      Elementals_leaf_ranger_288x128_SpriteSheet_217: 985831124
+      Elementals_leaf_ranger_288x128_SpriteSheet_218: 1127024482
+      Elementals_leaf_ranger_288x128_SpriteSheet_219: 592560828
+      Elementals_leaf_ranger_288x128_SpriteSheet_22: -1366517095
+      Elementals_leaf_ranger_288x128_SpriteSheet_220: 1105618591
+      Elementals_leaf_ranger_288x128_SpriteSheet_221: 1290849705
+      Elementals_leaf_ranger_288x128_SpriteSheet_222: -239943477
+      Elementals_leaf_ranger_288x128_SpriteSheet_223: 1775004802
+      Elementals_leaf_ranger_288x128_SpriteSheet_224: -1990101
+      Elementals_leaf_ranger_288x128_SpriteSheet_225: -1107231588
+      Elementals_leaf_ranger_288x128_SpriteSheet_226: -787795019
+      Elementals_leaf_ranger_288x128_SpriteSheet_227: 1907727444
+      Elementals_leaf_ranger_288x128_SpriteSheet_228: 1296849395
+      Elementals_leaf_ranger_288x128_SpriteSheet_229: -1409068443
+      Elementals_leaf_ranger_288x128_SpriteSheet_23: -973902390
+      Elementals_leaf_ranger_288x128_SpriteSheet_230: -1276829660
+      Elementals_leaf_ranger_288x128_SpriteSheet_231: 1785061776
+      Elementals_leaf_ranger_288x128_SpriteSheet_232: -159429749
+      Elementals_leaf_ranger_288x128_SpriteSheet_233: 2000268070
+      Elementals_leaf_ranger_288x128_SpriteSheet_234: -515843165
+      Elementals_leaf_ranger_288x128_SpriteSheet_235: -2032041407
+      Elementals_leaf_ranger_288x128_SpriteSheet_24: -1562383712
+      Elementals_leaf_ranger_288x128_SpriteSheet_25: 23637409
+      Elementals_leaf_ranger_288x128_SpriteSheet_26: -2109222760
+      Elementals_leaf_ranger_288x128_SpriteSheet_27: -1942856235
+      Elementals_leaf_ranger_288x128_SpriteSheet_28: -316769162
+      Elementals_leaf_ranger_288x128_SpriteSheet_29: -1164903400
+      Elementals_leaf_ranger_288x128_SpriteSheet_3: -326220338
+      Elementals_leaf_ranger_288x128_SpriteSheet_30: -295882425
+      Elementals_leaf_ranger_288x128_SpriteSheet_31: -457043280
+      Elementals_leaf_ranger_288x128_SpriteSheet_32: -455526040
+      Elementals_leaf_ranger_288x128_SpriteSheet_33: -1731433277
+      Elementals_leaf_ranger_288x128_SpriteSheet_34: -669434262
+      Elementals_leaf_ranger_288x128_SpriteSheet_35: 1969518100
+      Elementals_leaf_ranger_288x128_SpriteSheet_36: -1783037210
+      Elementals_leaf_ranger_288x128_SpriteSheet_37: -2091053618
+      Elementals_leaf_ranger_288x128_SpriteSheet_38: -1769001891
+      Elementals_leaf_ranger_288x128_SpriteSheet_39: -961411407
+      Elementals_leaf_ranger_288x128_SpriteSheet_4: 17443363
+      Elementals_leaf_ranger_288x128_SpriteSheet_40: 1674982088
+      Elementals_leaf_ranger_288x128_SpriteSheet_41: 1866549928
+      Elementals_leaf_ranger_288x128_SpriteSheet_42: 704044801
+      Elementals_leaf_ranger_288x128_SpriteSheet_43: 993289144
+      Elementals_leaf_ranger_288x128_SpriteSheet_44: -1945311950
+      Elementals_leaf_ranger_288x128_SpriteSheet_45: -120653374
+      Elementals_leaf_ranger_288x128_SpriteSheet_46: -1101717171
+      Elementals_leaf_ranger_288x128_SpriteSheet_47: -1942282218
+      Elementals_leaf_ranger_288x128_SpriteSheet_48: -514979992
+      Elementals_leaf_ranger_288x128_SpriteSheet_49: -827836338
+      Elementals_leaf_ranger_288x128_SpriteSheet_5: 883342054
+      Elementals_leaf_ranger_288x128_SpriteSheet_50: -321400861
+      Elementals_leaf_ranger_288x128_SpriteSheet_51: -775146485
+      Elementals_leaf_ranger_288x128_SpriteSheet_52: 806420912
+      Elementals_leaf_ranger_288x128_SpriteSheet_53: 475959488
+      Elementals_leaf_ranger_288x128_SpriteSheet_54: -2021729638
+      Elementals_leaf_ranger_288x128_SpriteSheet_55: 1236150940
+      Elementals_leaf_ranger_288x128_SpriteSheet_56: 2011743289
+      Elementals_leaf_ranger_288x128_SpriteSheet_57: -141664459
+      Elementals_leaf_ranger_288x128_SpriteSheet_58: -951295826
+      Elementals_leaf_ranger_288x128_SpriteSheet_59: 1754676669
+      Elementals_leaf_ranger_288x128_SpriteSheet_6: 2144063901
+      Elementals_leaf_ranger_288x128_SpriteSheet_60: -645581943
+      Elementals_leaf_ranger_288x128_SpriteSheet_61: 1157169112
+      Elementals_leaf_ranger_288x128_SpriteSheet_62: -1333125527
+      Elementals_leaf_ranger_288x128_SpriteSheet_63: -328106717
+      Elementals_leaf_ranger_288x128_SpriteSheet_64: 1092491946
+      Elementals_leaf_ranger_288x128_SpriteSheet_65: 611960444
+      Elementals_leaf_ranger_288x128_SpriteSheet_66: 1221736047
+      Elementals_leaf_ranger_288x128_SpriteSheet_67: -1759871931
+      Elementals_leaf_ranger_288x128_SpriteSheet_68: 685674884
+      Elementals_leaf_ranger_288x128_SpriteSheet_69: 1462356229
+      Elementals_leaf_ranger_288x128_SpriteSheet_7: 1950143289
+      Elementals_leaf_ranger_288x128_SpriteSheet_70: 1543335763
+      Elementals_leaf_ranger_288x128_SpriteSheet_71: 396711057
+      Elementals_leaf_ranger_288x128_SpriteSheet_72: 1276545557
+      Elementals_leaf_ranger_288x128_SpriteSheet_73: 422892721
+      Elementals_leaf_ranger_288x128_SpriteSheet_74: 688269134
+      Elementals_leaf_ranger_288x128_SpriteSheet_75: 53046422
+      Elementals_leaf_ranger_288x128_SpriteSheet_76: -1171189786
+      Elementals_leaf_ranger_288x128_SpriteSheet_77: -808215053
+      Elementals_leaf_ranger_288x128_SpriteSheet_78: -209621778
+      Elementals_leaf_ranger_288x128_SpriteSheet_79: -1698462921
+      Elementals_leaf_ranger_288x128_SpriteSheet_8: -65991727
+      Elementals_leaf_ranger_288x128_SpriteSheet_80: -707924018
+      Elementals_leaf_ranger_288x128_SpriteSheet_81: 1269604657
+      Elementals_leaf_ranger_288x128_SpriteSheet_82: -1694638866
+      Elementals_leaf_ranger_288x128_SpriteSheet_83: -1341480501
+      Elementals_leaf_ranger_288x128_SpriteSheet_84: -1618730683
+      Elementals_leaf_ranger_288x128_SpriteSheet_85: 20366275
+      Elementals_leaf_ranger_288x128_SpriteSheet_86: 1802873639
+      Elementals_leaf_ranger_288x128_SpriteSheet_87: -1020720205
+      Elementals_leaf_ranger_288x128_SpriteSheet_88: -654583504
+      Elementals_leaf_ranger_288x128_SpriteSheet_89: -348326554
+      Elementals_leaf_ranger_288x128_SpriteSheet_9: 1061079273
+      Elementals_leaf_ranger_288x128_SpriteSheet_90: -1953055824
+      Elementals_leaf_ranger_288x128_SpriteSheet_91: -70002290
+      Elementals_leaf_ranger_288x128_SpriteSheet_92: -1754150810
+      Elementals_leaf_ranger_288x128_SpriteSheet_93: 1425802571
+      Elementals_leaf_ranger_288x128_SpriteSheet_94: -1738168608
+      Elementals_leaf_ranger_288x128_SpriteSheet_95: 1371734402
+      Elementals_leaf_ranger_288x128_SpriteSheet_96: -1314099446
+      Elementals_leaf_ranger_288x128_SpriteSheet_97: 2064267451
+      Elementals_leaf_ranger_288x128_SpriteSheet_98: 1988607630
+      Elementals_leaf_ranger_288x128_SpriteSheet_99: -621017204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
