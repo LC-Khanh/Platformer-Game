@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] int totalJumps;
     int availableJumps;
     float horizontalValue;
+    float verticalValue;
     float runSpeedModifier = 2f;
     float crouchSpeedModifier = 0.5f;
 
@@ -30,16 +31,16 @@ public class PlayerMovement : MonoBehaviour
     bool isRunning;
     bool facingRight = true;
     bool crouchPressed;
-    bool mutipleJump;
-    bool coyotejump;
+    bool multipleJump;
+    bool coyoteJump;
     bool isDead = false;
     bool isAttacking = false;
 
     [Header("Sounds")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip jumpSound1;
-/*    public InteractionSystem interactionSystem;
-*/
+    /* public InteractionSystem interactionSystem; */
+
     void Start()
     {
         availableJumps = totalJumps;
@@ -47,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         /*interactionSystem = FindObjectOfType<InteractionSystem>();*/
         platformParent = null;
+        GroundCheck(); // Kiểm tra trạng thái đất ngay từ đầu
     }
 
     void Update()
@@ -54,9 +56,9 @@ public class PlayerMovement : MonoBehaviour
         if (CanMove() == false)
             return;
 
-        
-        // Store the horizontal value
+        // Store the horizontal and vertical values
         horizontalValue = Input.GetAxisRaw("Horizontal");
+        verticalValue = Input.GetAxisRaw("Vertical");
 
         // Setting to Key "Run" for player
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -69,9 +71,9 @@ public class PlayerMovement : MonoBehaviour
             Jump();
 
         // Setting to Key "Crouch" for player
-        if (Input.GetButtonDown("Crouch"))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
             crouchPressed = true;
-        else if (Input.GetButtonUp("Crouch"))
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
             crouchPressed = false;
 
         // Setting to Key "Attack" for player
@@ -85,49 +87,50 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         GroundCheck();
-        Move(horizontalValue, crouchPressed);
+        Move(horizontalValue, verticalValue, crouchPressed);
     }
 
     #region CheckGround
     void GroundCheck()
+{
+    bool wasGrounded = isGrounded;
+    isGrounded = false;
+
+    Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckCollider.position, groundCheckRadius, groundLayer);
+    if (colliders.Length > 0)
     {
-        bool wasGrounded = isGrounded;
-        isGrounded = false;
-
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckCollider.position, groundCheckRadius, groundLayer);
-        if (colliders.Length > 0)
+        isGrounded = true;
+        if (!wasGrounded)
         {
-            isGrounded = true;
-            if (!wasGrounded)
-            {
-                availableJumps = totalJumps;
-                mutipleJump = false;
-            }
-
-            foreach (var c in colliders)
-            {
-                if (c.tag == "MovingPlatform")
-                    transform.parent = c.transform;
-            }
-        }
-        else
-        {
-            transform.parent = null;
-
-            if (wasGrounded)
-                StartCoroutine(CoyoteJumpDelay());
+            availableJumps = totalJumps;
+            multipleJump = false;
+            animator.SetBool("IsJumping", false); // Reset IsJumping when grounded
         }
 
-        animator.SetBool("IsJumping", !isGrounded);
+        foreach (var c in colliders)
+        {
+            if (c.tag == "MovingPlatform")
+                transform.parent = c.transform;
+        }
     }
+    else
+    {
+        transform.parent = null;
+
+        if (wasGrounded)
+            StartCoroutine(CoyoteJumpDelay());
+    }
+
+    animator.SetBool("IsJumping", !isGrounded); // Set IsJumping based on current state
+}
     #endregion
 
     #region Jump
     IEnumerator CoyoteJumpDelay()
     {
-        coyotejump = true;
+        coyoteJump = true;
         yield return new WaitForSeconds(0.2f);
-        coyotejump = false;
+        coyoteJump = false;
     }
 
     void Jump()
@@ -138,25 +141,24 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (isGrounded)
                 {
-                    mutipleJump = true;
+                    multipleJump = true;
                     availableJumps--;
                     rb.velocity = Vector2.up * jumpPower;
                     animator.SetBool("IsJumping", true);
-                    /*SoundManager.instance.Playsound(jumpSound);*/
+                    // Play jump sound here if needed
                 }
                 else
                 {
-                    if (coyotejump)
+                    if (coyoteJump)
                     {
                         Debug.Log("Coyote Jump");
                     }
 
-                    if (mutipleJump && availableJumps > 0)
+                    if (multipleJump && availableJumps > 0)
                     {
                         availableJumps--;
-                       /* SoundManager.instance.Playsound(jumpSound1);*/
                         rb.velocity = Vector2.up * jumpPower;
-                        animator.SetBool("IsJumping", false);
+                        animator.SetBool("IsJumping", false); // Reset IsJumping immediately
                     }
                 }
             }
@@ -164,14 +166,20 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
-    void Move(float dir, bool crouchFlag)
+    void Move(float horizontalDir, float verticalDir, bool crouchFlag)
     {
-        if (isAttacking && dir != 0)
+        if (isAttacking && horizontalDir != 0)
         {
-            
             animator.SetBool("IsAttacking", false);
             isAttacking = false;
         }
+
+        // Update isRunning based on whether horizontalDir is not zero
+        isRunning = horizontalDir != 0;
+
+        animator.SetBool("IsRunning", isRunning);
+
+
 
         #region Crouch
         if (isGrounded)
@@ -188,7 +196,7 @@ public class PlayerMovement : MonoBehaviour
         #endregion
 
         #region Move & Run
-        float xVal = dir * speed * 100 * Time.fixedDeltaTime;
+        float xVal = horizontalDir * speed * 100 * Time.fixedDeltaTime;
 
         if (isRunning)
             xVal *= runSpeedModifier;
@@ -199,12 +207,12 @@ public class PlayerMovement : MonoBehaviour
         Vector2 targetVelocity = new Vector2(xVal, rb.velocity.y);
         rb.velocity = targetVelocity;
 
-        if (facingRight && dir < 0)
+        if (facingRight && horizontalDir < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
             facingRight = false;
         }
-        else if (!facingRight && dir > 0)
+        else if (!facingRight && horizontalDir > 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
             facingRight = true;
@@ -262,7 +270,7 @@ public class PlayerMovement : MonoBehaviour
     {
         bool can = true;
 
-       /* if (interactionSystem.isExamining)
+        /* if (interactionSystem.isExamining)
             can = false;
         if (FindObjectOfType<InventorySystem>().isOpen)
             can = false;*/
@@ -283,10 +291,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        /*if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage();
-        }
+        }*/
     }
 
     #region Moving Platform
@@ -307,4 +315,3 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 }
-
