@@ -6,11 +6,13 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     Animator animator;
+    PlayerAttack playerAttack;
+
     [Header("GroundCheck")]
-    [SerializeField] Collider2D standingCollider;
+    [SerializeField] CapsuleCollider2D standingCollider;
     [SerializeField] Transform groundCheckCollider;
 
-    [Header("Crouch")]
+    [Header("Roll")]
     [SerializeField] Transform overheadCheckCollider;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] TrailRenderer tr;
@@ -25,30 +27,29 @@ public class PlayerMovement : MonoBehaviour
     float horizontalValue;
     float verticalValue;
     float runSpeedModifier = 2f;
-    float crouchSpeedModifier = 0.5f;
 
     bool isGrounded;
     bool isRunning;
     bool facingRight = true;
-    bool crouchPressed;
+    bool isRolling;
+    bool isSliding;
+    bool canRoll = true;
     bool multipleJump;
     bool coyoteJump;
-    bool isDead = false;
-    bool isAttacking = false;
+    public bool isDead = false;
 
     [Header("Sounds")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip jumpSound1;
-    /* public InteractionSystem interactionSystem; */
 
     void Start()
     {
         availableJumps = totalJumps;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        /*interactionSystem = FindObjectOfType<InteractionSystem>();*/
+        playerAttack = GetComponent<PlayerAttack>();
         platformParent = null;
-        GroundCheck(); // Kiểm tra trạng thái đất ngay từ đầu
+        GroundCheck();
     }
 
     void Update()
@@ -56,76 +57,77 @@ public class PlayerMovement : MonoBehaviour
         if (CanMove() == false)
             return;
 
-        // Store the horizontal and vertical values
         horizontalValue = Input.GetAxisRaw("Horizontal");
         verticalValue = Input.GetAxisRaw("Vertical");
 
-        // Setting to Key "Run" for player
         if (Input.GetKeyDown(KeyCode.LeftShift))
-            isRunning = true;
+        {
+            if (isGrounded && !isRolling && IsOnSlope())
+            {
+                Slide();
+            }
+            else
+            {
+                isRunning = true;
+            }
+        }
         if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
             isRunning = false;
+            isSliding = false;
+            animator.SetBool("IsSliding", false);
+        }
 
-        // Setting to Key "Jump" for player
         if (Input.GetButtonDown("Jump"))
             Jump();
 
-        // Setting to Key "Crouch" for player
-        if (Input.GetKeyDown(KeyCode.LeftControl))
-            crouchPressed = true;
-        else if (Input.GetKeyUp(KeyCode.LeftControl))
-            crouchPressed = false;
+        if (Input.GetKeyDown(KeyCode.LeftControl) && canRoll && isGrounded && !isRolling)
+        {
+            StartCoroutine(Roll());
+        }
 
-        // Setting to Key "Attack" for player
-        if (Input.GetButtonDown("Fire1"))
-            Attack();
-
-        // Set to the yVelocity in the animator
         animator.SetFloat("yVelocity", rb.velocity.y);
     }
 
     void FixedUpdate()
     {
         GroundCheck();
-        Move(horizontalValue, verticalValue, crouchPressed);
+        Move(horizontalValue, verticalValue);
     }
 
-    #region CheckGround
     void GroundCheck()
-{
-    bool wasGrounded = isGrounded;
-    isGrounded = false;
-
-    Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckCollider.position, groundCheckRadius, groundLayer);
-    if (colliders.Length > 0)
     {
-        isGrounded = true;
-        if (!wasGrounded)
+        bool wasGrounded = isGrounded;
+        isGrounded = false;
+
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckCollider.position, groundCheckRadius, groundLayer);
+        if (colliders.Length > 0)
         {
-            availableJumps = totalJumps;
-            multipleJump = false;
-            animator.SetBool("IsJumping", false); // Reset IsJumping when grounded
+            isGrounded = true;
+            if (!wasGrounded)
+            {
+                availableJumps = totalJumps;
+                multipleJump = false;
+                animator.SetBool("IsJumping", false);
+            }
+
+            foreach (var c in colliders)
+            {
+                if (c.tag == "MovingPlatform")
+                    transform.parent = c.transform;
+            }
+        }
+        else
+        {
+            transform.parent = null;
+
+            if (wasGrounded)
+                StartCoroutine(CoyoteJumpDelay());
         }
 
-        foreach (var c in colliders)
-        {
-            if (c.tag == "MovingPlatform")
-                transform.parent = c.transform;
-        }
-    }
-    else
-    {
-        transform.parent = null;
-
-        if (wasGrounded)
-            StartCoroutine(CoyoteJumpDelay());
+        animator.SetBool("IsJumping", !isGrounded);
     }
 
-    animator.SetBool("IsJumping", !isGrounded); // Set IsJumping based on current state
-}
-    #endregion
-
-    #region Jump
     IEnumerator CoyoteJumpDelay()
     {
         coyoteJump = true;
@@ -135,7 +137,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        if (!crouchPressed) // Only jump if the player is not crouching
+        if (!isRolling)
         {
             if (!isDead)
             {
@@ -145,7 +147,6 @@ public class PlayerMovement : MonoBehaviour
                     availableJumps--;
                     rb.velocity = Vector2.up * jumpPower;
                     animator.SetBool("IsJumping", true);
-                    // Play jump sound here if needed
                 }
                 else
                 {
@@ -158,51 +159,37 @@ public class PlayerMovement : MonoBehaviour
                     {
                         availableJumps--;
                         rb.velocity = Vector2.up * jumpPower;
-                        animator.SetBool("IsJumping", false); // Reset IsJumping immediately
+                        animator.SetBool("IsJumping", false);
                     }
                 }
             }
         }
     }
-    #endregion
 
-    void Move(float horizontalDir, float verticalDir, bool crouchFlag)
+    void Move(float horizontalDir, float verticalDir)
     {
-        if (isAttacking && horizontalDir != 0)
-        {
-            animator.SetBool("IsAttacking", false);
-            isAttacking = false;
-        }
-
-        // Update isRunning based on whether horizontalDir is not zero
         isRunning = horizontalDir != 0;
 
         animator.SetBool("IsRunning", isRunning);
 
-
-
-        #region Crouch
-        if (isGrounded)
-        {
-            if (!crouchFlag)
-            {
-                if (Physics2D.OverlapCircle(overheadCheckCollider.position, overheadCheckRadius, groundLayer))
-                    crouchFlag = true;
-            }
-
-            animator.SetBool("IsCrouching", crouchFlag);
-            standingCollider.enabled = !crouchFlag;
-        }
-        #endregion
-
-        #region Move & Run
         float xVal = horizontalDir * speed * 100 * Time.fixedDeltaTime;
 
         if (isRunning)
             xVal *= runSpeedModifier;
 
-        if (crouchFlag)
-            xVal *= crouchSpeedModifier;
+        if (isRolling)
+            xVal *= 2;
+
+        RaycastHit2D hit = Physics2D.Raycast(groundCheckCollider.position, Vector2.down, groundCheckRadius + 0.1f, groundLayer);
+        if (hit.collider != null)
+        {
+            Vector2 normal = hit.normal;
+            float slopeAngle = Vector2.Angle(normal, Vector2.up);
+            if (slopeAngle > 45f)
+            {
+                xVal = 0;
+            }
+        }
 
         Vector2 targetVelocity = new Vector2(xVal, rb.velocity.y);
         rb.velocity = targetVelocity;
@@ -219,24 +206,40 @@ public class PlayerMovement : MonoBehaviour
         }
 
         animator.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x));
-        #endregion
     }
 
-    void Attack()
+    IEnumerator Roll()
     {
-        if (!isAttacking && !isDead)
+        canRoll = false;
+        isRolling = true;
+        animator.SetBool("IsRolling", true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        animator.SetBool("IsRolling", false);
+        isRolling = false;
+
+        yield return new WaitForSeconds(2f);
+        canRoll = true;
+    }
+
+    void Slide()
+    {
+        isSliding = true;
+        animator.SetBool("IsSliding", true);
+        rb.velocity = new Vector2(rb.velocity.x, -speed * 2);
+    }
+
+    bool IsOnSlope()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(groundCheckCollider.position, Vector2.down, groundCheckRadius + 0.1f, groundLayer);
+        if (hit.collider != null)
         {
-            isAttacking = true;
-            animator.SetBool("IsAttacking", true);
-            StartCoroutine(ResetAttack());
+            Vector2 normal = hit.normal;
+            float slopeAngle = Vector2.Angle(normal, Vector2.up);
+            return slopeAngle > 0 && slopeAngle < 90;
         }
-    }
-
-    private IEnumerator ResetAttack()
-    {
-        yield return new WaitForSeconds(0.5f); // Adjust this to the duration of your attack animation
-        isAttacking = false;
-        animator.SetBool("IsAttacking", false);
+        return false;
     }
 
     public void TakeDamage()
@@ -244,9 +247,6 @@ public class PlayerMovement : MonoBehaviour
         if (isDead) return;
 
         animator.SetTrigger("TakeDamageTrigger");
-        // Add logic to reduce health here if needed
-
-        // Optionally, handle knockback or other effects here
     }
 
     public void Die()
@@ -255,8 +255,8 @@ public class PlayerMovement : MonoBehaviour
 
         isDead = true;
         animator.SetBool("IsDead", true);
-        rb.velocity = Vector2.zero; // Stop the player
-        rb.isKinematic = true; // Prevent the player from being affected by physics
+        rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
     }
 
     public void ResetPlayer()
@@ -270,48 +270,23 @@ public class PlayerMovement : MonoBehaviour
     {
         bool can = true;
 
-        /* if (interactionSystem.isExamining)
-            can = false;
-        if (FindObjectOfType<InventorySystem>().isOpen)
-            can = false;*/
         if (isDead)
+            can = false;
+
+        if (isRolling)
             can = false;
 
         return can;
     }
 
-    private void OnDrawGizmosSelected()
+    public bool CanAttack()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawSphere(groundCheckCollider.position, groundCheckRadius);
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawSphere(overheadCheckCollider.position, overheadCheckRadius);
+        return !isDead && !isRolling && isGrounded;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnDrawGizmos()
     {
-        /*if (collision.gameObject.CompareTag("Enemy"))
-        {
-            TakeDamage();
-        }*/
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(groundCheckCollider.position, groundCheckRadius);
     }
-
-    #region Moving Platform
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("MovingPlatform"))
-        {
-            platformParent = other.transform;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("MovingPlatform"))
-        {
-            platformParent = null;
-        }
-    }
-    #endregion
 }

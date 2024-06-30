@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\IT\\Unity\\Project\\Platformer-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|d:\\it\\unity\\project\\platformer-game\\assets\\scipts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|d:\\it\\unity\\project\\platformer-game\\assets\\scipts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\animations\\attack\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\animations\\attack\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\Projectile.cs",
+              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scipts\\Projectile.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T22:08:01.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Arrow.cs",
+              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Animations\\Attack\\Arrow.cs",
+              "RelativeDocumentMoniker": "Assets\\Animations\\Attack\\Arrow.cs",
+              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Animations\\Attack\\Arrow.cs",
+              "RelativeToolTip": "Assets\\Animations\\Attack\\Arrow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T21:48:18.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\PlayerAttack.cs",
+              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scipts\\PlayerAttack.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwCEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T20:43:31.724Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +75,7 @@
               "RelativeDocumentMoniker": "Assets\\Scipts\\PlayerMovement.cs",
               "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scipts\\PlayerMovement.cs",
-              "ViewState": "AQIAAMwAAAAAAAAAAAAowN8AAAAAAAAA",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAcwFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T22:41:38.179Z",
               "EditorCaption": ""
