@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     Animator animator;
     PlayerAttack playerAttack;
 
@@ -36,7 +36,6 @@ public class PlayerMovement : MonoBehaviour
     bool canRoll = true;
     bool multipleJump;
     bool coyoteJump;
-    public bool isDead = false;
 
     [Header("Sounds")]
     [SerializeField] private AudioClip jumpSound;
@@ -139,28 +138,25 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isRolling)
         {
-            if (!isDead)
+            if (isGrounded)
             {
-                if (isGrounded)
+                multipleJump = true;
+                availableJumps--;
+                rb.velocity = Vector2.up * jumpPower;
+                animator.SetBool("IsJumping", true);
+            }
+            else
+            {
+                if (coyoteJump)
                 {
-                    multipleJump = true;
+                    Debug.Log("Coyote Jump");
+                }
+
+                if (multipleJump && availableJumps > 0)
+                {
                     availableJumps--;
                     rb.velocity = Vector2.up * jumpPower;
-                    animator.SetBool("IsJumping", true);
-                }
-                else
-                {
-                    if (coyoteJump)
-                    {
-                        Debug.Log("Coyote Jump");
-                    }
-
-                    if (multipleJump && availableJumps > 0)
-                    {
-                        availableJumps--;
-                        rb.velocity = Vector2.up * jumpPower;
-                        animator.SetBool("IsJumping", false);
-                    }
+                    animator.SetBool("IsJumping", false);
                 }
             }
         }
@@ -242,36 +238,9 @@ public class PlayerMovement : MonoBehaviour
         return false;
     }
 
-    public void TakeDamage()
-    {
-        if (isDead) return;
-
-        animator.SetTrigger("TakeDamageTrigger");
-    }
-
-    public void Die()
-    {
-        if (isDead) return;
-
-        isDead = true;
-        animator.SetBool("IsDead", true);
-        rb.velocity = Vector2.zero;
-        rb.isKinematic = true;
-    }
-
-    public void ResetPlayer()
-    {
-        isDead = false;
-        animator.SetBool("IsDead", false);
-        rb.isKinematic = false;
-    }
-
     public bool CanMove()
     {
         bool can = true;
-
-        if (isDead)
-            can = false;
 
         if (isRolling)
             can = false;
@@ -281,7 +250,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool CanAttack()
     {
-        return !isDead && !isRolling && isGrounded;
+        return !isRolling && isGrounded;
     }
 
     void OnDrawGizmos()
