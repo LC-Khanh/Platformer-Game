@@ -5,6 +5,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
     public float currentHealth { get;  set; }
+    public float maxHealth { get; set; }
     bool dead;
     Animator anim;
     PlayerMovement playerMovement;
@@ -15,6 +16,7 @@ public class Health : MonoBehaviour
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
         currentHealth = startingHealth;
+        maxHealth = startingHealth;
         saveSystem = FindObjectOfType<SaveSystem>();
     }
 
@@ -41,6 +43,19 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void ChangeHealth(float amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, startingHealth);
+
+        if (currentHealth <= 0 && !dead)
+        {
+            Die();
+        }
+        else
+        {
+            anim.SetTrigger("Hurt");
+        }
+    }
     public void Die()
     {
         dead = true;

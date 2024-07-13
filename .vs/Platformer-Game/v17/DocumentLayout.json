@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "D:\\IT\\Unity\\Project\\Platformer-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|d:\\it\\unity\\project\\platformer-game\\assets\\scipts\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|d:\\it\\unity\\project\\platformer-game\\assets\\scipts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|d:\\it\\unity\\project\\platformer-game\\assets\\scipts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|d:\\it\\unity\\project\\platformer-game\\assets\\scipts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\player\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\player\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\PlayerAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scipts\\PlayerAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|D:\\IT\\Unity\\Project\\Platformer-Game\\assets\\scipts\\player\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B06BFC5-2781-E86B-2DE8-B3ED00D48F1B}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\player\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +54,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemSO.cs",
+              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\ItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\ItemSO.cs",
+              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\ItemSO.cs",
+              "RelativeToolTip": "Assets\\Scipts\\ItemSO.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T10:40:46.438Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ItemSlot.cs",
+              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\ItemSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\ItemSlot.cs",
+              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\ItemSlot.cs",
+              "RelativeToolTip": "Assets\\Scipts\\ItemSlot.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAIBJwHAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:11:49.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\Item.cs",
+              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Item.cs",
+              "RelativeToolTip": "Assets\\Scipts\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:52:03.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\InventoryManager.cs",
+              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Scipts\\InventoryManager.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:32:12.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SavePoint.cs",
               "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\SavePoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\SavePoint.cs",
@@ -54,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scipts\\SavePoint.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T07:06:52.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:06:52.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\SaveSystem.cs",
@@ -67,24 +127,24 @@
               "RelativeToolTip": "Assets\\Scipts\\SaveSystem.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T07:04:19.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:04:19.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Player\\PlayerMovement.cs",
               "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scipts\\Player\\PlayerMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAwK8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T23:27:16.018Z"
+              "WhenOpened": "2024-07-02T23:27:16.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Healthbar.cs",
               "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Health\\Healthbar.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Health\\Healthbar.cs",
@@ -96,20 +156,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Health.cs",
               "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Health\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Health\\Health.cs",
               "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Health\\Health.cs",
               "RelativeToolTip": "Assets\\Scipts\\Health\\Health.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwAYAAAAmAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAADwvxIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:38:59.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T18:38:59.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "InteractionSystem.cs",
               "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Player\\InteractionSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Player\\InteractionSystem.cs",
@@ -121,27 +180,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Projectile.cs",
               "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Projectile.cs",
               "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\Projectile.cs",
               "RelativeToolTip": "Assets\\Scipts\\Projectile.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCgAAAAVAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwCgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T22:08:01.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerAttack.cs",
-              "DocumentMoniker": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\PlayerAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scipts\\PlayerAttack.cs",
-              "ToolTip": "D:\\IT\\Unity\\Project\\Platformer-Game\\Assets\\Scipts\\PlayerAttack.cs",
-              "RelativeToolTip": "Assets\\Scipts\\PlayerAttack.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwCEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T20:43:31.724Z"
             }
           ]
         }

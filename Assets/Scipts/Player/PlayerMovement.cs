@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform overheadCheckCollider;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] TrailRenderer tr;
-    private Transform platformParent;
+/*    private Transform platformParent;*/
 
     const float groundCheckRadius = 0.2f;
     const float overheadCheckRadius = 0.2f;
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         playerAttack = GetComponent<PlayerAttack>();
-        platformParent = null;
+        /*platformParent = null;*/
         GroundCheck();
     }
 
@@ -165,23 +165,37 @@ public class PlayerMovement : MonoBehaviour
     void Move(float horizontalDir, float verticalDir)
     {
         isRunning = horizontalDir != 0;
-
         animator.SetBool("IsRunning", isRunning);
 
         float xVal = horizontalDir * speed * 100 * Time.fixedDeltaTime;
-
         if (isRunning)
             xVal *= runSpeedModifier;
-
         if (isRolling)
             xVal *= 2;
 
+        
         RaycastHit2D hit = Physics2D.Raycast(groundCheckCollider.position, Vector2.down, groundCheckRadius + 0.1f, groundLayer);
         if (hit.collider != null)
         {
             Vector2 normal = hit.normal;
             float slopeAngle = Vector2.Angle(normal, Vector2.up);
-            if (slopeAngle > 45f)
+
+            
+            if (slopeAngle > 0f && slopeAngle <= 45f)
+            {
+                if (horizontalDir < 0 && normal.x > 0 || horizontalDir > 0 && normal.x < 0)
+                {
+                    
+                    xVal *= 0.5f; 
+                }
+                else if (horizontalDir > 0 && normal.x > 0 || horizontalDir < 0 && normal.x < 0)
+                {
+                    
+                    xVal *= 1.5f; 
+                }
+                rb.AddForce(new Vector2(0, -10f));
+            }
+            else if (slopeAngle > 45f)
             {
                 xVal = 0;
             }
@@ -203,6 +217,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x));
     }
+
 
     IEnumerator Roll()
     {
